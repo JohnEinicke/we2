@@ -1,0 +1,179 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.flex-equal>* {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+#listMessage {
+  list-style: none;
+  padding-right: 40px;
+  margin-top: 60px;
+}
+#loginForm {
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+body {
+  padding-top: 3.5rem;
+}
+
+.form-control {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+.btn-primary{
+  background-color: #E8823C;
+  border-color: #E8823C;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #FF7342;
+  border-color: #E8823C;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #fff;
+  background-color: #ff6242;
+  border-color: #ff6242;
+  box-shadow: 0 0 0 0.2rem rgba(255, 210, 66, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #FFD242;
+  border-color: #FFD242;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ff6242;
+  border-color: #ff6242;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 175, 78, 0.5);
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.lead {
+  font-weight: 500;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 1.4rem;
+}
+
+h3{
+  font-size: 1.2rem;
+}
+
+#logo {
+  height: 40px;
+}
+
+#forgotPw {
+  margin: auto;
+}
+
+#username {
+  margin: auto;
+}
+
+#loginIcon {
+      margin: auto;
+}
+
+#userInformation {
+  margin-top: 2rem;
+}
+
+#personalContent {
+  width: 90%;
+}
+
+#profilepic {
+  margin-top: 2rem;
+  max-width: 80%;
+}
+
+#backgroundImg {
+  background-image: url("/pictures/background.jpg");
+  background-size: cover;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#welcomeText {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#bookCover {
+  max-width: 70%;
+  height: 50vh;
+  background-size: cover;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .flex-md-equal>* {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  #backgroundImg {
+      height: 30rem;
+  }
+
+  h1{
+    font-size: 4.5rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+  h3{
+    font-size: 1.75rem;
+  }
+
+}

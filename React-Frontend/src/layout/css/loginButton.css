@@ -1,0 +1,14 @@
+#loginButton {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+    #loginButton {
+        flex-grow: 1;
+        margin-left: 0;
+    }
+
+    .btn{
+        width: 100%;
+    }
+  }

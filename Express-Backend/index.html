@@ -1,0 +1,161 @@
+  <!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/myStyles.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/colors.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/451aeeb795.js" crossorigin="anonymous"></script>
+  <title>Read2Gether</title>
+</head>
+
+<body class="myColor1">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light">
+    <a class="navbar-brand" href="#">Read2Gether</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reviews</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lesegruppen</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">Meine Lesegruppen</a>
+            <a class="dropdown-item" href="#">Lesegruppe finden</a>
+            <a class="dropdown-item" href="#">Lesegruppe erstellen</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#login">Log In</button>
+      </form>
+    </div>
+  </nav>
+
+  <main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron rounded-0" id="backgroundImg">
+      <div class="container mt-4 text-center" id="welcomeText">
+        <h1>Read2Gether!</h1>
+        <h3>Deine Büchercommunity!</h3>
+      </div>
+    </div>
+    <!-- Example row of columns -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="myColor2 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2><u>Review des Tages:</u></h2>
+          <h3>Harry Potter und der Stein der Weisen</h3>
+          <img src="pictures/hp-stw.jpg" alt="Harry Potter und der Stein der Weisen" id="bookCover">
+          <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <a href="#" class="btn btn-secondary mx-auto" role="button">Mehr Erfahren</a>
+        </div>
+      </div>
+      <div class="myColor4 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2><u>Neueste Review:</u></h2>
+          <h3>Harry Potter und der Stein der Weisen</h3>
+          <img src="pictures/hp-stw.jpg" alt="Harry Potter und der Stein der Weisen" id="bookCover">
+          <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <a href="#" class="btn btn-secondary mx-auto" role="button">Mehr Erfahren</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <div class="myColor4 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+          <h2><u>Kategorie des Tages:</u></h2>
+          <h3>Fantasy</h3>
+          <img src="pictures/dragon.jpg" alt="Harry Potter und der Stein der Weisen" id="bookCover">
+          <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <a href="#" class="btn btn-secondary mx-auto" role="button">Mehr Erfahren</a>
+        </div>
+      </div>
+      <div class="myColor2 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+          <h2><u>Zufälliges Review:</u></h2>
+          <h3>Harry Potter und der Stein der Weisen</h3>
+          <img src="pictures/hp-stw.jpg" alt="Harry Potter und der Stein der Weisen" id="bookCover">
+          <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <a href="#" class="btn btn-secondary mx-auto" role="button">Mehr Erfahren</a>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Login -->
+    <form class="form-signin">
+      <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row flex-nowrap">
+                <div class="col-md-auto" id="loginIcon"><i class="fas fa-user"></i></div>
+                <div class="col-md col-11">
+                  <label for="inputName" class="sr-only">Email address</label>
+                  <input type="text" id="inputName" class="form-control" placeholder="Nutzername" required>
+                </div>
+              </div>
+              <div class="row flex-nowrap">
+                <div class="col-md-auto" id="loginIcon"><i class="fas fa-key"></i></div>
+                <div class="col-md col-11">
+                  <label for="inputPassword" class="sr-only">Password</label>
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Passwort" required>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-7"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></div>
+                  <div class="col-md-5" id="forgotPw"><a href="#">Passwort vergessen?</a></div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </form>
+
+  </main>
+
+  <!-- The Modal -->
+
+  <footer class="container">
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
+
+</html>
